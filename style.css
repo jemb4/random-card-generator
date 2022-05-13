@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #4BAC4B;
+    margin:0
+}
+
+
+/* Card */
+.card-container{
+    margin: 3rem 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#card{
+    background-color: white;
+    /* background-image: url("/img/mandalas.jpg"); */
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 9px 14px -7px #0E3D0E;
+    font-size: 5rem;
+    height: 9cm;
+    width: 6cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-cover{
+    background: url(img/mandalas.jpg) center;
+}
+
+#top-card, 
+#mid-card, 
+#bot-card{
+font-weight: bold;
+padding: 0 1rem;
+}
+
+#top-card{
+    text-align: start;
+}
+
+#mid-card{
+    text-align: center;
+}
+
+#bot-card{
+    transform: rotate(180deg);
+}
+
+
+
+/* Buttons */
+.buttons{
+    background-color: #0E3D0E;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+	box-shadow: 0px 9px 14px -7px black;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:6px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+    margin: 20px;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #5b8a3c;    
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.hidden{
+    display: none;
+}
+
+/* otros */ 
+.red{
+    color: red;
+}
+
+.black{
+    color: black;
+}

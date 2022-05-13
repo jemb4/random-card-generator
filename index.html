@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random card generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="buttons">
+            <button id="btn1" onclick="generateCard()">New Card</button>
+            <button id="btn2" onclick="startCards()">Every 3 seconds</button>
+            <button id="btn3" onclick="stopCards()" class="hidden">Stop</button>
+        </div>
+    </nav>
+
+    <div class="card-container">
+        <div id="card" class="card-cover">
+            <div id="top-card"></div>
+            <div id="mid-card"></div>
+            <div id="bot-card"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
