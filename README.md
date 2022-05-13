@@ -1,1 +1,1 @@
-Link preview here [link]()
+Link preview [here](https://jemb4.github.io/random-card-generator/)
