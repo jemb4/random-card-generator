@@ -17,6 +17,8 @@ function generateValue ()
   ? "Q"
   : num === 13
   ? "K"
+  : num === 1
+  ? "A"
   : num;
 }
 
